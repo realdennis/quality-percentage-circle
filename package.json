@@ -1,0 +1,17 @@
+{
+  "name": "quality-circle",
+  "version": "1.0.0",
+  "main": "quality-percentage-circle.js",
+  "license": "MIT",
+  "scripts": {
+    "dev":"webpack-dev-server",
+    "build":"webpack --mode=production"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
